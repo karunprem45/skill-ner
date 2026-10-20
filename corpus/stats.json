@@ -1,0 +1,8 @@
+{
+  "postings_available": 10986,
+  "gold_postings_excluded": 15,
+  "train_docs": 3600,
+  "dev_docs": 400,
+  "skill_spans": 14592,
+  "spans_dropped_misaligned": 42
+}

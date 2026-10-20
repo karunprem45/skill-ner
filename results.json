@@ -1,0 +1,110 @@
+{
+  "gold_postings": 15,
+  "gold_labels": 110,
+  "regex": {
+    "precision": 0.991,
+    "recall": 1.0,
+    "f1": 0.995,
+    "tp": 110,
+    "fp": 1,
+    "fn": 0
+  },
+  "spacy_ner": {
+    "precision": 0.991,
+    "recall": 0.955,
+    "f1": 0.972,
+    "tp": 105,
+    "fp": 1,
+    "fn": 5
+  },
+  "unseen_postings_scanned": 1000,
+  "unseen_entities": 2023,
+  "unseen_oov_entities": 12,
+  "unseen_oov_share": 0.0059,
+  "oov_candidates_min_count": 1,
+  "oov_candidates": 11,
+  "oov_top": [
+    [
+      "a modeling&learning",
+      2
+    ],
+    [
+      "firefox",
+      1
+    ],
+    [
+      "retrieval apis",
+      1
+    ],
+    [
+      "natural language querying",
+      1
+    ],
+    [
+      "vector-",
+      1
+    ],
+    [
+      "vector ai",
+      1
+    ],
+    [
+      "solicit",
+      1
+    ],
+    [
+      "vector retrieval collaborate",
+      1
+    ],
+    [
+      "heartflow",
+      1
+    ],
+    [
+      "statistical inference",
+      1
+    ],
+    [
+      "ang",
+      1
+    ]
+  ],
+  "ner_errors": [
+    {
+      "source_id": "themuse:20944609",
+      "ner_missed": [],
+      "ner_spurious": [
+        "Statistics"
+      ]
+    },
+    {
+      "source_id": "themuse:21297791",
+      "ner_missed": [
+        "Model Monitoring"
+      ],
+      "ner_spurious": []
+    },
+    {
+      "source_id": "jobicy:145647",
+      "ner_missed": [
+        "MLOps"
+      ],
+      "ner_spurious": []
+    },
+    {
+      "source_id": "themuse:21442390",
+      "ner_missed": [
+        "Data Modeling",
+        "Databricks"
+      ],
+      "ner_spurious": []
+    },
+    {
+      "source_id": "themuse:21846690",
+      "ner_missed": [
+        "Time Series"
+      ],
+      "ner_spurious": []
+    }
+  ]
+}
